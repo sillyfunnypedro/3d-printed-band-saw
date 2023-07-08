@@ -123,7 +123,7 @@ class HelperTools:
 class BandSaw:
     def __init__(self):
         self.make_stl = False  # this is turned off for debuging
-        self.production = False
+        self.production = False # this is turned on for production
 
         # initialize the tools.
         self.tools = HelperTools()
