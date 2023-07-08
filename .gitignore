@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#openSCAD files
+*.scad
+
+#stl files
+*.stl
+
+# output files in the output directory
+output/*
+
 # C extensions
 *.so
 
