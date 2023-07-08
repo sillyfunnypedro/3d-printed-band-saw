@@ -5,13 +5,15 @@ I decided to not pull these objects apart into different files because this prod
 
 If you are debugging the code i recommend that you set two varialbles as follows
 
+```
 class BandSaw:
     def __init__(self):
         self.make_stl = False  # this is turned off for debuging
-        self.production = False
+        self.production = False # this is turned on for production
+
 
         # initialize the tools.
-
+```
 
 I attempted to make the functions self descriptive and every time i jump back into this code i updates comments 
 where i am working
