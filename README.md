@@ -26,3 +26,6 @@ the OpenSCAD viewer is available here.
 
 https://openscad.org/
 
+The version of the files i used to print out the band-saw can be downloaded from 
+https://cults3d.com/en/3d-model/tool/portable-band-saw.  
+
