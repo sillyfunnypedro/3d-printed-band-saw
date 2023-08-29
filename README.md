@@ -4,11 +4,13 @@ The python script that generates the openSCAD files for the 3d printed band saw
 I decided to not pull these objects apart into different files because this produces one output (albeit in 23 files)
 
 If you are debugging the code i recommend that you set two varialbles as follows
+
 ```
 class BandSaw:
     def __init__(self):
         self.make_stl = False  # this is turned off for debuging
-        self.production = False
+        self.production = False # this is turned on for production
+
 
         # initialize the tools.
 ```
@@ -23,4 +25,7 @@ use the one at https://github.com/SolidCode/SolidPython
 the OpenSCAD viewer is available here.
 
 https://openscad.org/
+
+The version of the files i used to print out the band-saw can be downloaded from 
+https://cults3d.com/en/3d-model/tool/portable-band-saw.  
 
