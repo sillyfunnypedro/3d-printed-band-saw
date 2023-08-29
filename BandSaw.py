@@ -1669,7 +1669,7 @@ class BandSaw:
             offset = 1
 
         width = self.table_guide_slot_width + 2 * offset
-        depth = self.table_miter_slot_depth + offset
+        depth = self.table_miter_slot_depth
         bar = cube((width, 4000, depth), center=True)
         bar = translate((0, 0, -depth / 2))(bar)
 
